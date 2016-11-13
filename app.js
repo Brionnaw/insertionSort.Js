@@ -9,8 +9,8 @@ function insertionSort(arr) {
     k = j - 1;
 
     while(j && arr[k] > val) { // 1st loop: 1 && 1>3  true in while satement if its about true.
-      arr[j] = arr[k];    a[j]-=2; a[k]=3 -->  1(3)(3) duplicate 3
-      arr[j] = val;  = a[j] =2 (j stores 2)--> 1(2)3
+      arr[j] = arr[k];  //  a[j]-=2; a[k]=3 -->  1(3)(3) duplicate 3
+      arr[j] = val;  //= a[j] =2 (j stores 2)--> 1(2)3
     }
   }
   return arr;
